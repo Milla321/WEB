@@ -1,2 +1,4 @@
 # WEB
 WEB OLDAL SZERKESZTÉS
+2020.11.18.
+Esti szoftver
