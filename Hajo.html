@@ -1,81 +1,47 @@
 <!DOCTYPE html>
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2020 by anonymous (http://jsbin.com/qucobodede/1/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
-<!-- Talián Milla, 2020.10.20, Esti szoftver -->
 <!-- Nagy János 2020-11-12, esti szoft1 -->
 <html lang="hu">
 <head>
 <meta charset="utf-8" />
 <title>Hajó</title>
 <link rel="stylesheet" href="style.css">
-
-<style id="jsbin-css">
-h1 {
-	color: red;
-}
-
-h2 {
-	color: green;
-}
-
-.felul {
-	text-decoration: overline;
-}
-.kek {
-	color: navy;
-}
-</style>
 </head>
 <body>
-
+  <h1>Video.js Hide BPB Before Autoplay</h1>
+  <video 
+      autoplay
+      class="video-js" 
+      controls 
+      preload="auto" 
+      width="640" 
+      height="268"
+      crossorigin="anonymous">
+    <source type="video/mp4" src="https://vjs.zencdn.net/v/oceans.mp4">
+    <source type="video/webm" src="https://vjs.zencdn.net/v/oceans.webm">
+    <track kind="captions" label="Demo" src="https://vjs.zencdn.net/4.12.15/demo.captions.vtt">
+  </video> 
 <h1>Hajó</h1>
 <h2>A hajó felépítése</h2>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum blandit sapien non volutpat. Vivamus posuere massa euismod libero varius et mollis velit aliquam. Donec ultrices placerat consequat. Phasellus sit amet est non lorem vestibulum placerat iaculis vitae justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum feugiat eleifend. Duis tincidunt tempus eros, ac laoreet magna suscipit eu. Praesent quis facilisis lacus. Quisque imperdiet egestas lectus dapibus iaculis. Morbi egestas nulla eu magna sagittis vitae eleifend lacus sodales. Nullam vel nunc nisl. Vestibulum eget sapien eros. Donec ac pellentesque odio. In hac habitasse platea dictumst.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum blandit sapien non volutpat. 
 </p>
-
 <ul>
-	<li>kémény</li>
+<li>kémény</li>
+<li>tat</li>
+<li class="felul">hajócsavar</li>
+<li class="felul">hajótest</li>
+<li class="kek">horgony</li>
+<li class="kek">bulbaorr</li>
+<li class="kek">orr</li>
+<li>fedélzet
 
-	<li>tat</li>
-
-	<li class="felul">hajócsavar</li>
-
-	<li class="felul">hajótest</li>
-
-	<li class="kek">horgony</li>
-
-	<li class="kek">bulbaorr</li>
-
-	<li class="kek">orr</li>
-
-	<li>fedélzet
-
-		<ol>
-			<li>hajóűr</li>
-
-			<li>hajótő</li>
-
-			<li>fedélköz</li>
-
-			<li>hajókamra</li>
-
-		</ol>
-
-	</li>
-
+<ol>
+<li>hajóűr</li>
+<li>hajótő</li>
+<li>fedélköz</li>
+<li>hajókamra</li>
+</ol>
+</li>
 </ul>
-
-
 </body>
-</html>
-
-
 </html>
